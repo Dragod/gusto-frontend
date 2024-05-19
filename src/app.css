@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* For Firefox Browser */
+/* .scrollbar {
+	scrollbar-width: thin;
+	scrollbar-color: #ddd #fff;
+} */
+
+/* For Chrome, EDGE, Opera, Others */
+/* .scrollbar::-webkit-scrollbar {
+	width: 3px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+	background: #fff;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+	background: #767676;
+} */
+
+html,
+body {
+	height: 100%;
+	max-height: 100%;
+	min-height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-size: cover;
+	font-family: poppins, sans-serif;
+}
