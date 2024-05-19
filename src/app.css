@@ -32,6 +32,13 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-size: cover;
 	font-family: poppins, sans-serif;
+	font-size: 16px;
+}
+
+body {
+	background-image: url('/bg.svg');
+	background-color: black; /* Add this line */
+	background-size: cover;
+	background-repeat: no-repeat;
 }

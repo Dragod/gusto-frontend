@@ -4,10 +4,13 @@ export default {
 	theme: {
 		extend: {
 			backgroundImage: () => ({
-				'body-background': "url('../pizza.jpg')"
+				//'body-background': "url('./static/bg.svg')"
 			}),
 			fontFamily: {
 				'body-font': ['Poppins', 'sans-serif']
+			},
+			colors: {
+				default: '#003f36'
 			}
 		}
 	},
